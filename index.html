@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- HTML Meta Tags -->
+      <title>Les films de plein air - accueil</title>
+      <meta
+         name="description"
+         content="Festival de film en plein air du 5 au 8 août 2023, chaque soir de 18 h à minuit."
+      />
+
+      <!-- Facebook Meta Tags -->
+      <meta property="og:url" content="https://festival.tonymarques.fr/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Les films de plein air - accueil" />
+      <meta
+         property="og:description"
+         content="Festival de film en plein air du 5 au 8 août 2023, chaque soir de 18 h à minuit."
+      />
+      <meta
+         property="og:image"
+         content="https://www.visit.alsace/wp-content/uploads/2018/11/festival-decibulles-2017-laurent-khram-longvixay-1-1600x900.jpg"
+      />
+
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://festival.tonymarques.fr/" />
+      <meta name="twitter:title" content="Les films de plein air - accueil" />
+      <meta
+         name="twitter:description"
+         content="Festival de film en plein air du 5 au 8 août 2023, chaque soir de 18 h à minuit."
+      />
+      <meta
+         name="twitter:image"
+         content="https://www.visit.alsace/wp-content/uploads/2018/11/festival-decibulles-2017-laurent-khram-longvixay-1-1600x900.jpg"
+      />
+
+      <!-- Meta Tags Generated via https://www.opentags.io -->
+      <!-- Paste them in your <head> section of your website. -->
+
+      <link rel="stylesheet" href="./css/style.css" />
+      <script
+         src="https://kit.fontawesome.com/6274398224.js"
+         crossorigin="anonymous"
+      ></script>
+      <script src="./js/script.js" defer type="module"></script>
+   </head>
+   <body>
+      <header>
+         <div class="nav-container">
+            <div class="logo">
+               <img src="/assets/images/logo2.png" alt="logo site" />
+            </div>
+            <button class="theme">
+               <i class="fa-solid fa-moon"></i>
+            </button>
+            <nav>
+               <ul>
+                  <li><a href="/index.html" class="active">Accueil</a></li>
+                  <li><a href="/films.html">Films</a></li>
+                  <li><a href="/actualites.html">Actualités</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+            <i class="fa-solid fa-bars"></i>
+         </div>
+      </header>
+      <main class="main">
+         <section class="about">
+            <div class="about-desc">
+               <h3>Concernant le festival</h3>
+               <p>
+                  L'association "Les films de plein air" a été créer pour faire
+                  découvrir aux grand public des films d'auteur. Cette année
+                  l'association a obtenue l'autorisation de projeter au parc
+                  Monceau Paris des divers séléctions de film.
+               </p>
+               <p>
+                  L'évènement aura lieu le 5 au 8 août 2023, chaque soir de 18 h
+                  à minuit.
+               </p>
+               <p>
+                  L'accès aux projection est totalement gratuit et ouvert à
+                  tous. Cependant, pour estimer les nombres de personnes
+                  présentes chaque soir et afin d'apporter des améliorations
+                  chaque année, une pré-inscription sera requise.
+               </p>
+            </div>
+            <img
+               src="./assets/images/festival1.webp"
+               alt="présentation festival"
+            />
+         </section>
+         <section class="selection">
+            <h3 class="title">Notre séléction 2023</h3>
+            <div class="movies-container">
+               <a href="./films.html#roi-lion" class="movie"
+                  ><img
+                     src="./assets/affiches/roi-lion.webp"
+                     alt="affiche roi lion"
+               /></a>
+               <a href="./films.html#baby-boss" class="movie"
+                  ><img
+                     src="./assets/affiches/baby-boss.jpg"
+                     alt="affiche baby boss"
+               /></a>
+               <a href="./films.html#toy-story" class="movie"
+                  ><img
+                     src="./assets/affiches/toy-story.jpg"
+                     alt="affiche toy story"
+               /></a>
+               <a href="./films.html#mulan" class="movie"
+                  ><img src="./assets/affiches/mulan.jpg" alt="affiche mulan"
+               /></a>
+               <a href="./films.html#gladiateur" class="movie"
+                  ><img
+                     src="./assets/affiches/gladiator.jpg"
+                     alt="affiche gladiator"
+               /></a>
+               <a href="./films.html#avenger" class="movie"
+                  ><img
+                     src="./assets/affiches/avenger.jpg"
+                     alt="affiche avenger"
+               /></a>
+               <a href="./films.html#lor" class="movie"
+                  ><img
+                     src="./assets/affiches/lor.jpg"
+                     alt="affiche seigneur des anneaux"
+               /></a>
+               <a href="./films.html#harry-potter" class="movie">
+                  <img
+                     src="./assets/affiches/harry-potter.webp"
+                     alt="affiche harry potter"
+                  />
+               </a>
+               <!-- <div class="movie"><img src="./gladiator.jpg" alt="" /></div>
+               <div class="movie"><img src="./gladiator.jpg" alt="" /></div>
+               <div class="movie"><img src="./gladiator.jpg" alt="" /></div>
+               <div class="movie"><img src="./gladiator.jpg" alt="" /></div> -->
+            </div>
+         </section>
+         <section class="reservation" id="reservation">
+            <h3>Réservation en ligne</h3>
+            <div class="form-container">
+               <img src="./assets/images/popcorn.png" alt="popcorn" />
+               <form>
+                  <div class="item-group">
+                     <div class="lastname">
+                        <label for="nom">Nom</label>
+                        <input
+                           type="text"
+                           name="nom"
+                           id="nom_reservation"
+                           autocomplete="off"
+                        />
+                     </div>
+                     <div class="firstname">
+                        <label for="prenom">Prénom</label>
+                        <input
+                           type="text"
+                           name="prenom"
+                           id="prenom_reservation"
+                        />
+                     </div>
+                  </div>
+                  <div class="item-group">
+                     <div class="email">
+                        <label for="email">Email</label>
+                        <input
+                           type="email"
+                           name="email"
+                           id="email_reservation"
+                        />
+                     </div>
+                     <div class="phone">
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" name="telephone" id="telephone" />
+                     </div>
+                  </div>
+                  <div class="item-group">
+                     <div class="place">
+                        <label for="place">Nombre de place</label>
+                        <input
+                           type="number"
+                           min="1"
+                           max="10"
+                           value="1"
+                           id="place"
+                           name="place"
+                        />
+                     </div>
+
+                     <div class="seance">
+                        <label for="select">Séance</label>
+                        <select name="select" id="select">
+                           <option value="" selected disabled>
+                              Choisir ma séance
+                           </option>
+                           <optgroup label="05/08/2023">
+                              <option value="roi-lion">Le roi lion</option>
+                              <option value="gladiateur">Glatiateur</option>
+                           </optgroup>
+                           <optgroup label="06/08/2023">
+                              <option value="toy-story">Toy story</option>
+                              <option value="avenger">
+                                 Avenger: Infinity war
+                              </option>
+                           </optgroup>
+                           <optgroup label="07/08/2023">
+                              <option value="baby-boss">Baby boss</option>
+                              <option value="lotr">
+                                 Le seigneur des anneaux: Le retour du roi
+                              </option>
+                           </optgroup>
+                           <optgroup label="08/08/2023">
+                              <option value="gladiateur">Mulan</option>
+                              <option value="harry-potter">
+                                 Harry Potter: A l'école des sorciers
+                              </option>
+                           </optgroup>
+                        </select>
+                     </div>
+                  </div>
+
+                  <button class="btn">Je confirme ma réservation</button>
+               </form>
+            </div>
+         </section>
+         <section class="contact" id="contact">
+            <h3>Le plan du site</h3>
+            <div class="maap-and-form">
+               <iframe
+                  class="iframe-desktop"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735535538926!2d2.3063800768267773!3d48.87968699920692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1685434386113!5m2!1sfr!2sfr"
+                  width="45%"
+                  height="600"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+               <iframe
+                  class="iframe-mobile"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735535538926!2d2.3063800768267773!3d48.87968699920692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1685434386113!5m2!1sfr!2sfr"
+                  width="100%"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+               <form>
+                  <h3>Nous contacter</h3>
+                  <div class="item-group">
+                     <div class="lastname">
+                        <label for="nom">Nom</label>
+                        <input
+                           type="text"
+                           name="nom"
+                           id="nom"
+                           autocomplete="off"
+                        />
+                     </div>
+                     <div class="firstname">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" />
+                     </div>
+                  </div>
+                  <div class="item-group">
+                     <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                     </div>
+                  </div>
+                  <div class="item-group">
+                     <div class="message">
+                        <label for="message_contact">Message</label>
+                        <textarea
+                           name="message_contact"
+                           id="message_contact"
+                           cols="30"
+                           rows="10"
+                        ></textarea>
+                     </div>
+                  </div>
+
+                  <button class="btn">Envoyer</button>
+               </form>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div class="top">
+            <div class="container">
+               <div class="left">
+                  <a href="">Accueil</a><a href="">Films</a
+                  ><a href="">Actualités</a><a href="">Contact</a>
+               </div>
+               <div class="center">
+                  <i class="fa-brands fa-instagram" style="color: #fd204d"></i>
+                  <i class="fa-brands fa-facebook" style="color: #1977f3"></i>
+                  <i class="fa-brands fa-youtube" style="color: #ff0000"></i>
+               </div>
+               <div class="right">
+                  <p>4 rue de Paris, 75008 Paris</p>
+                  <p>06.75.75.75.75</p>
+                  <p>contact@filmsdepleinair.org</p>
+               </div>
+            </div>
+         </div>
+         <div class="bottom">
+            <div class="container">
+               <p>
+                  Copyright &nbsp;<span id="year"> 2023 </span>&nbsp; / Marques
+                  Tony
+               </p>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

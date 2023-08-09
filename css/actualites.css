@@ -1,0 +1,66 @@
+.actu-container {
+   /* border: 1px solid red; */
+   /* margin-top: 2rem; */
+}
+
+.actualite {
+   display: flex;
+   flex-direction: column;
+   padding: 3rem;
+   border-radius: 5px;
+   color: white;
+   margin: 2rem 0;
+}
+
+.actualite:nth-child(odd) {
+   background: #0097b2;
+}
+.actualite:nth-child(even) {
+   background: #014f70;
+}
+.actualite:nth-child(even) h3 {
+   border-color: #0097b2;
+}
+
+.actualite img {
+   object-fit: cover;
+   height: 250px;
+   margin-bottom: 2rem;
+}
+
+.actualite .title {
+   margin-bottom: 1rem;
+}
+
+.actualite h3 {
+   margin-bottom: 0rem;
+}
+
+.actualite .title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+   .actualite {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding: 2rem;
+      font-size: 1rem;
+   }
+   .actualite span {
+      font-size: 1rem;
+   }
+   .actualite .infos p {
+      font-size: 0.8em;
+   }
+}
+@media screen and (max-width: 600px) {
+   .actualite {
+      padding: 1rem;
+   }
+   .actualite span {
+      font-size: 0.8rem;
+   }
+}
